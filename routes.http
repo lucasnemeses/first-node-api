@@ -1,0 +1,27 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+  "title": "Como sair do ZERO em Node.js em apenas UMA aula",
+  "description": "O que você precisa saber para criar a sua primeira aplicação em Node.js?",
+  "duration": 91
+}
+
+###
+
+GET http://localhost:3333/videos
+
+###
+
+PUT http://localhost:3333/videos/1
+Content-Type: application/json
+
+{
+  "title": "Javascript & Node.js: Do baixo ao alto nível",
+  "description": "Essa live faz parte da Imersão Full Stack && Full Cycle. Para acessar todas as aulas, lives e desafios.",
+  "duration": 150
+}
+
+###
+
+DELETE http://localhost:3333/videos/1
